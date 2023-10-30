@@ -3,7 +3,7 @@
 
 <?php
 
-$num = 10;
+$num = $_GET["num"]
 echo "Multiplication Table to $num \n";
 for ($i = 1; $i <= $num; $i++) {
     echo "$i \t";
